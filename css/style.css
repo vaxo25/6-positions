@@ -1,0 +1,120 @@
+/*header styles*/
+
+.logo { float: left; }
+
+.navigation { float: right; }
+
+.clear { clear: both; }
+
+.nav-li { display: inline-block; }
+
+.heder { 
+	background-color: green;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+body { padding-top: 50px;
+       height: 3800px; }
+
+.test { font-size: 40px; }
+/*.div { margin-top: 36px; }
+*/
+
+.chat {
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
+	z-index: 30;
+}
+
+.chat .icon { height: 100px; }
+
+.sticky {
+     background-color: orange;
+	 font-size: 20px;
+     position: sticky;
+     top: 55px;
+     left: 0;
+}
+
+
+.wraper-box {
+	position: relative;
+	height: 500px;
+	width: 500px;
+	background-color: red;
+}
+
+.child-box {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 5px;
+	bottom: 5px;
+	background-color: blue;
+	z-index: 2;
+}
+
+.child-box2 {
+	position: absolute;
+	background-color: aqua;
+	width: 200px;
+	height: 200px;
+	bottom: 50px;
+	left: 50px;
+}
+
+
+.div-img { position: relative;
+            width: 771px;
+            height: 480px; }
+
+
+
+.hello { position: absolute;
+         width: 50px;
+         height: 50px;
+         top: 50px;
+         right: 50px;
+         background-color: yellow; 
+         color: black;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img { 
+
+ }
+
+.text {
+	width: 500px;
+	float: right;
+} 
+
+.wraper-box::after {
+    content: ''; 
+	clear: both;
+	display: block;
+}
+
